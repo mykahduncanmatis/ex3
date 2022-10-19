@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+            https://cordova.apache.org/docs/en/latest/
+        Some notes:
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline' fonts.googleapis.com; media-src *; img-src 'self' data: content:; connect-src 'self' https://api.openweathermap.org; font-src 'self' fonts.gstatic.com;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/framework7-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <title>Watchlist</title>
+    </head>
+    <body>
+        <h1>What to Watch</h1>
+        <div>
+            <h2>Movies</h2>
+            <ul>
+                <li><a href="https://www.netflix.com/watch/70105599?source=35">1. Coraline</a></li>
+                <li><a href="https://www.primevideo.com/dp/amzn1.dv.gti.49a075d6-b243-4664-ad42-57361db51184?autoplay=0&ref_=atv_cf_strg_wb">2. Sweeney Todd: The Demon Barber of Fleet Street</a></li>
+                <li><a href="">3. Placeholder</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>TV Shows</h2>
+            <ul>
+                <li><a href="https://www.netflix.com/watch/80057281?source=35">1. Stranger Things</a></li>
+                <li><a href="https://www.netflix.com/watch/81029704?source=35">2. Devil In Ohio</a></li>
+                <li><a href="">3. Placeholder</a></li>
+            </ul>
+            
+        </div>
+        
+        
+        
+    </body>
+</html>

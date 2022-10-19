@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@400;500&display=swap');
+body {
+    background-color: #fefae0;
+    color: #283618;
+}
+.framework7-root {
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefae0+0,dda15e+100 */
+background: #fefae0; /* Old browsers */
+background: -moz-linear-gradient(top,  #fefae0 0%, #dda15e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fefae0 0%,#dda15e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fefae0 0%,#dda15e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefae0', endColorstr='#dda15e',GradientType=0 ); /* IE6-9 */
+;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;    
+    background-color: #fefae0;
+    margin: 10vw;
+    text-transform: none;
+}
+
+.menu-list {
+    color: black;
+    background-color: #DDA15E;
+    text-transform: none;
+    padding: 2vw;
+    outline-style: solid;
+    outline-color: #BC6C25;
+    font-size: 100%;
+    margin: auto;
+    
+
+}
+a {
+    font-family: Libre;
+    color: #283618;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+    padding: 10%;
+    font-size: 155%;
+    text-transform: none;
+    text-decoration: underline;
+    color: #283618;
+}
+h2 {
+    text-transform: none;
+}
+
+.appe {
+    background-color: #fefae0;
+}
+
+
+
+  body {
+    background: var(--grey--light);
+  }
+
+  .main {
+    width: 1152px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .main__item {
+    background: var(--white);
+    border-radius: 4px;
+   
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .main__item svg {
+      width: 100%;
+      height: 100%;
+      stroke: #283618;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      color: #283618;
